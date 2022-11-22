@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="head">
+      <p class="headdata">Account Management System</p>
+    </div>
+    <div class="container-fluid nb">
+      <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-3 px-sm-2 px-0 bg-dark">
+          <div
+            class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
+          >
+            <ul
+              class="nav navbar-nav pt-2 nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+              id="menu"
+            >
+              <li class="nav-item pt-2">
+                <a href="/" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-house"></i>
+                  <span class="ms-1 d-none d-sm-inline">Create Account</span>
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/delete.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-house"></i>
+                  <span class="ms-1 d-none d-sm-inline">Delete Account</span>
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/update.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-table"></i>
+                  <span class="ms-1 d-none d-sm-inline">Update Account</span></a
+                >
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/allaccounts.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-people"></i>
+                  <span class="ms-1 d-none d-sm-inline"
+                    >Get All Account Details</span
+                  >
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/oneaccount.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-house"></i>
+                  <span class="ms-1 d-none d-sm-inline"
+                    >Get Single Account Details</span
+                  >
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/deposit.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-table"></i>
+                  <span class="ms-1 d-none d-sm-inline"
+                    >Deposite Amount</span
+                  ></a
+                >
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/withdraw.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-people"></i>
+                  <span class="ms-1 d-none d-sm-inline">Withdraw Account</span>
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/transfer.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-house"></i>
+                  <span class="ms-1 d-none d-sm-inline">Transfer Funds</span>
+                </a>
+              </li>
+              <li class="nav-item pt-4">
+                <a href="/statement.html" class="align-middle px-0 nblinks">
+                  <i class="fs-4 bi-table"></i>
+                  <span class="ms-1 d-none d-sm-inline">Statement</span></a
+                >
+              </li>
+            </ul>
+            <hr />
+          </div>
+        </div>
+        <div class="col py-3 mdata">
+          <p id="mt">Enter Account Number To Get Details</p>
+          <form>
+            <div class="form-group">
+                  <input type="text" class="form-control item" id="cname" placeholder="Account Number" required>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit" class="btn btn-block create-account">Submit</button>
+                <button type="reset" class="btn btn-block create-account">Reset</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

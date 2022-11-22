@@ -1,0 +1,113 @@
+body{
+background-color: #31E1F7;
+}
+.head{
+    text-align: center;
+    background-color: #31E1F7;
+}
+.headdata{
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+table td,
+table th {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.card {
+    border-radius: .5rem;
+}
+
+.table-scroll {
+    border-radius: .5rem;
+}
+
+thead {
+    top: 0;
+    position: sticky;
+}
+.mdata{
+    background-color: #2289c8;
+}
+.nblinks{
+    color: white;
+    text-decoration: none;
+}
+.nblinks :hover{
+    color: rgb(96, 204, 118);
+}
+.mdata{
+    text-align: center;
+}
+.registration-form {
+    padding: 50px 0;
+}
+
+.mdata form {
+    background-color: rgb(20, 206, 97);
+    max-width: 600px;
+    margin: auto;
+    padding: 50px 70px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.mdata .item {
+    border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+#male, #female{
+    width: 50px;
+    height: 18px;
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+#female{
+    margin-left: 60px;
+}
+#sg {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 0 20px;
+    padding-top: 15px;
+    margin-bottom: 25px;
+}
+#gt{
+    font-size: 20px;
+    width: 100px;
+    text-align: left;
+}
+#mt{
+    font-size: 35px;
+}
+#sat{
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+#al{
+    width: 150px;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 55px;
+}
+
+.mdata .create-account {
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5791ff;
+    border: none;
+    color: white;
+    margin-top: 20px;
+}
